@@ -1,6 +1,7 @@
 # 🧮 Projeto Calculadora Web
 
 Este é um projeto de uma calculadora digital com design moderno e interface fluida, desenvolvido como parte dos meus estudos em Análise e Desenvolvimento de Sistemas.
+🌐 **Acesse o projeto publicado aqui:** https://k3117.github.io/calculadora/
 
 ## 🚀 Tecnologias Utilizadas
 - **HTML5**: Estruturação dos elementos da calculadora.
