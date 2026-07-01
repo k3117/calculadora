@@ -1,43 +1,37 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
     margin: 0;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(135deg, #e2b4c7, #caa6ff, #8fd3ff);
+    background: linear-gradient(135deg, #cfc7db, #bdc7d8, #cad3df);
     font-family: 'Poppins', sans-serif;
 }
 
 .calculadora {
     width: 350px;
     padding: 20px;
-    background: rgba(255, 255, 255, 0.6); 
-    backdrop-filter: blur(15px);
+    background: rgba(235, 238, 245, 0.4); 
+    backdrop-filter: blur(20px);
     border-radius: 25px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-    border: 2px solid rgba(255,255,255,0.4);
+    box-shadow: 0 10px 30px rgba(130, 135, 150, 0.15);
+    border: 2px solid rgba(255, 255, 255, 0.3);
 }
 
 .display {
     width: 100%; 
     height: 70px; 
-    background: rgba(255, 255, 255, 0.7); 
+    background: rgba(223, 228, 237, 0.6); 
     border: none; 
     outline: none; 
     border-radius: 15px; 
     font-family: 'Poppins', sans-serif;
     font-size: 32px; 
-    color: #495057; 
+    color: #4a505c; 
     text-align: right; 
     padding: 0 20px;
     margin-bottom: 20px;
-    box-shadow: inset 0 3px 10px rgba(0,0,0,0.05);
+    box-shadow: inset 0 2px 5px rgba(0,0,0,0.02);
 }
 
 .botoes {
@@ -56,47 +50,46 @@ button {
     font-weight: 500;
     cursor: pointer;
     transition: all 0.2s ease;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    box-shadow: 0 3px 6px rgba(150, 155, 170, 0.1);
 }
 
 .num {
-    background: #FFFFFF;
-    color: #495057;
+    background: #f0f2f7;
+    color: #5a616c;
 }
 
 .num:hover {
-    background: #F1F3F5;
+    background: #e4e7f0;
     transform: translateY(-2px);
 }
 
 .funcao {
-    background: #BFFCC6; 
-    color: #2B5136; 
+    background: #cfe8d6; 
+    color: #3b5242; 
 }
 
 .funcao:hover {
-    background: #A3EBB0;
+    background: #c0dec8;
     transform: translateY(-2px);
 }
 
 .operador {
-    background: #FFC6FF; 
-    color: #5F265F; 
+    background: #ecd4ea; 
+    color: #5c435a; 
 }
 
 .operador:hover {
-    background: #FFA8FF;
+    background: #e2c4df;
     transform: translateY(-2px);
 }
 
 .igual {
-    background: #9BF6FF; 
-    color: #1A4D57; 
-    grid-column: span 1; 
+    background: #cbe6eb; 
+    color: #384f54; 
 }
 
 .igual:hover {
-    background: #77EDFA;
+    background: #bddde3;
     transform: translateY(-2px);
 }
 
